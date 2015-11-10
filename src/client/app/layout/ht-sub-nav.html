@@ -1,0 +1,5 @@
+<ul class="nav nav-tabs">
+    <li ng-repeat="state in vm.childStates" role="presentation" ui-sref-active="active">
+        <a href="{{state.url}}" ui-sref="{{state.name}}">{{state.title}}</a>
+    </li>
+</ul>
